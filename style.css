@@ -71,3 +71,37 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+
+/* @media */
+
+@media screen and (max-width: 420px) {
+  .row { 
+    width: 100%;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+    width: 100%;
+  }
+
+  #lezioni { 
+    background-color: beige;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    width: 100%;
+  }
+
+  #why {
+    background-color: beige;
+  }
+
+  img {
+    object-fit: scale-down;
+  }
+}
