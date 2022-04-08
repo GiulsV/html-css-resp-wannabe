@@ -78,7 +78,9 @@ img {
 /* @media */
 
 @media screen and (max-width: 420px) {
+  
   .row { 
+    margin-top: 0;
     width: 100%;
   }
 
@@ -88,7 +90,7 @@ img {
   }
 
   #lezioni { 
-    background-color: beige;
+    background-color: #f2f2cd;
   }
 
   #steps .row>.left,
@@ -98,7 +100,7 @@ img {
   }
 
   #why {
-    background-color: beige;
+    background-color: #f2f2cd;
   }
 
   img {
